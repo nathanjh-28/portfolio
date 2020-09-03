@@ -1,3 +1,58 @@
-body {
-    background-color: antiquewhite;
+.hero {
+    background-image: url(../images/splash.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.tabs a {
+    color: white;
+    font-size: 5rem;
+}
+
+.tabs a:hover {
+    color: rgb(129, 129, 255);
+    border-bottom-color: rgb(129, 129, 255);
+}
+
+#hero-name {
+    font-size: 6rem;
+    color: white;
+}
+
+#hero-role {
+    font-size: 5rem;
+    color: white;
+}
+
+.marble {
+    background-image: url(../images/marble.jpg);
+    height: 300vh;
+}
+
+.navbar {
+    background-color: rgba(255, 0, 0, 0)
+}
+
+.about {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-content {
+    width: 80%;
+    background-color: white;
+}
+
+/* .about-content p {
+    color: black;
+} */
+
+
+.nathan-img, .about-content {
+    border: white 5px solid;
 }
