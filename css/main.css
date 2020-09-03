@@ -36,7 +36,7 @@
 }
 
 .about {
-    height: 90vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,4 +55,35 @@
 
 .nathan-img, .about-content {
     border: white 5px solid;
+}
+
+
+
+.projects {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    /* flex-direction: column; */
+}
+
+.projects-body {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-card {
+    width: 35%;
+}
+
+.contact {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-body {
+    width: 80%;
 }
