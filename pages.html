@@ -17,7 +17,7 @@
 
 <body>
     <div class="marble">
-<!-- 
+
         <nav class="navbar" role="navigation" aria-label="main navigation">
             <div class="navbar-brand">
                 <a class="navbar-item" href="file:///Users/nathanjh/sei/portfolio/index.html">
@@ -46,31 +46,44 @@
                         Contact
                     </a>
                 </div>
+                <div class="nabar-end">
+                    <a href=""><span class="icon is-large"><i class="fab fa-github fa-lg"></i></span></a>
+                    <a href=""><span class="icon is-large"><i class="fab fa-linkedin fa-lg"></i></span></a>
+                    <a href=""><span class="icon is-large"><i class="far fa-envelope fa-lg"></i></span></a>
+                </div>
             </div>
-        </nav> -->
+        </nav>
 
         
         <section class="about">
             <img class="nathan-img my-3" src="./images/nathan.jpg" width="300px" alt="">
             <h1 class="title is-1">Nathan J Harris</h1>
             <div class="about-content">
-                <p class="subtitle is-4 my-3 py-3 px-3">
+                <p class="subtitle is-4 my-3 px-3">
                     I am a software engineer who enjoys discovering how technologies work and optimizing them for users.
                     I am passionate about making tools that help people with their everyday lives by stripping away
                     obstacles that block them from what matters most. I use my background in lighting console
                     programming to bridge the divide between people and technology.
                 </p>
+                <div class="about-buttons">
+                        <a href="#" class="button is-dark mx-3">Github</a>
+                        <a href="#" class="button is-dark mx-3">LinkedIn</a>
+                        <a href="#" class="button is-dark mx-3">Email</a>
+                </div>
             </div>
         </section>
 
-        <div class="projects-title container has-text-centered">
-
-            <h1 class="title is-1">Projects</h1>
+        <div class="projects-title container has-text-centered featured-proj">
+            <h1 class="title is-1">Featured Projects</h1>
         </div>
         <section class="projects">
             <div class="projects-body">
                 <div class="card project-card mx-3">
-                    <div class="card-image">
+                    <div class="container has-text-centered my-3">
+
+                        <p class="title is-4">Borrow This! </p>
+                    </div>
+                    <div class="card-image img-border">
                         <figure class="image is-4by3">
                             <img src="./images/borrow-this.png">
                         </figure>
@@ -78,12 +91,11 @@
                     <div class="card-content">
                         <div class="media">
                             <div class="media-content">
-                                <p class="title is-4">Borrow This! </p>
                                 <p class="subtitle is-6">Python - Django - PostgreSQL - Bulma</p>
                             </div>
                         </div>
 
-                        <div class="content">
+                        <div class="content proj-description">
                             My final project for General Assembly: A web application similar to craigslist, Sharegrid,
                             or AirBnB where users can post items for rent and make reservations for those items. In
                             addition users can decide how much money they want to charge, whether to approve
@@ -91,11 +103,22 @@
                             <br>
 
                         </div>
+                        <footer class="card-footer">
+                            <p class="card-footer-item">
+                                <a href="#" class="button is-success ">Visit</a>
+                            </p>
+                            <p class="card-footer-item">
+                                <a href="#" class="button is-info ">Github</a>
+                            </p>
+                        </footer>
                     </div>
 
                 </div>
                 <div class="card project-card mx-3 ">
-                    <div class="card-image">
+                    <div class="container has-text-centered my-3">
+                    <p class="title is-4">My Bookshelf </p>
+                    </div>
+                    <div class="card-image img-border">
                         <figure class="image is-4by3">
                             <img src="./images/mybookshelf.png">
                         </figure>
@@ -103,23 +126,34 @@
                     <div class="card-content">
                         <div class="media">
                             <div class="media-content">
-                                <p class="title is-4">My Bookshelf </p>
                                 <p class="subtitle is-6">Javascript - Node Express - Mongo DB </p>
                             </div>
                         </div>
 
-                        <div class="content">
+                        <div class="content proj-description">
                             An application where users can create bookshelves storing information about their favorite
                             books (or books currently reading). Read reviews they have submitted for each book and see
                             other users saved bookshelves.
                             <br>
 
                         </div>
+                        <footer class="card-footer">
+                            <p class="card-footer-item">
+                                <a href="#" class="button is-success ">Visit</a>
+                            </p>
+                            <p class="card-footer-item">
+                                <a href="#" class="button is-info ">Github</a>
+                            </p>
+                        </footer>
                     </div>
 
                 </div>
                 <div class="card project-card mx-3">
-                    <div class="card-image">
+                    <div class="container has-text-centered my-3">
+
+                        <p class="title is-4">Wayfarer </p>
+                    </div>
+                    <div class="card-image img-border">
                         <figure class="image is-4by3">
                             <img src="./images/wayfarer-homepage.png">
                         </figure>
@@ -127,12 +161,11 @@
                     <div class="card-content">
                         <div class="media">
                             <div class="media-content">
-                                <p class="title is-4">Wayfarer </p>
                                 <p class="subtitle is-6">Python - Django - PostgreSQL - Bulma</p>
                             </div>
                         </div>
 
-                        <div class="content">
+                        <div class="content proj-description">
                             A web application where users can interact with city travel destinations by adding posts and
                             viewing other users' posts sharing travel tips per city along the way. Each user can also
                             navigate their own profile page showing recent posts as well as make comments on posts.
@@ -141,10 +174,10 @@
                         </div>
                         <footer class="card-footer">
                             <p class="card-footer-item">
-                                <a href="#" class="button is-success is-outlined">Visit</a>
+                                <a href="#" class="button is-success ">Visit</a>
                             </p>
                             <p class="card-footer-item">
-                                <a href="#" class="button is-info is-outlined">Github</a>
+                                <a href="#" class="button is-info ">Github</a>
                             </p>
                         </footer>
                     </div>
@@ -161,47 +194,46 @@
 
                     <h1 class="title is-1">Contact Me</h1>
                 </div>
+                <form id="signup" action="https://formspree.io/xdowqokv" method="POST">
 
                 <div class="field">
                     <label class="label">Name</label>
                     <div class="control">
-                        <input class="input" type="text" placeholder="Text input">
+                        <input class="input" name="name" type="text" placeholder="My Name">
                     </div>
                 </div>
                 <div class="field">
                     <label class="label">Email</label>
                     <div class="control has-icons-left has-icons-right">
-                        <input class="input is-danger" type="email" placeholder="Email input" value="hello@">
+                        <input id="email" name="_replyto" class="input" type="email" placeholder="My Email" value="">
                         <span class="icon is-small is-left">
                             <i class="fas fa-envelope"></i>
                         </span>
-                        <span class="icon is-small is-right">
-                            <i class="fas fa-exclamation-triangle"></i>
-                        </span>
                     </div>
-                    <p class="help is-danger">This email is invalid</p>
+                    <p id="email-error" class="hidden help is-danger">Email is invalid</p>
                 </div>
 
                 <div class="field">
                     <label class="label">Subject</label>
                     <div class="control">
-                        <input class="input" type="text" placeholder="Text input">
+                        <input class="input" type="text" name="_subject" placeholder="Howdy From...">
                     </div>
                 </div>
 
                 <div class="field">
                     <label class="label">Message</label>
                     <div class="control">
-                        <textarea class="textarea" placeholder="Textarea"></textarea>
+                        <textarea class="textarea" name="message"  placeholder="Dear Nathan..."></textarea>
                     </div>
                 </div>
 
 
                 <div class="field is-grouped">
                     <div class="control">
-                        <button class="button is-success">Submit</button>
+                        <button type="submit" class="button is-success">Send</button>
                     </div>
                 </div>
+                </form>
             </div>
         </section>
 
@@ -211,7 +243,7 @@
     <footer class="footer">
         <div class="content has-text-centered">
           <p>
-            Made by Nathan J Harris using CSS Library Bulma and images are courtesy of unpsplash.
+            Made with Bulma CSS Library and images are courtesy of unsplash.
           </p>
         </div>
       </footer>

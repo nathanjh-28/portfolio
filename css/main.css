@@ -6,6 +6,11 @@
 
 }
 
+.hidden {
+    position: absolute;
+    display: none;
+}
+
 .tabs a {
     color: white;
     font-size: 5rem;
@@ -48,16 +53,23 @@
     background-color: white;
 }
 
+.about-buttons {
+    display: flex;
+    justify-content: center;
+}
+
 /* .about-content p {
     color: black;
 } */
 
 
 .nathan-img, .about-content {
-    border: white 5px solid;
+    border: white 1rem solid;
 }
 
-
+/* .featured-proj {
+    margin-bottom: -5%;
+} */
 
 .projects {
     display: flex;
@@ -67,7 +79,7 @@
 }
 
 .projects-body {
-    width: 90%;
+    width: 95%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,6 +87,14 @@
 
 .project-card {
     width: 35%;
+}
+
+.proj-description {
+    height: 18vh;
+}
+
+.img-border {
+    border: white 1rem solid;
 }
 
 .contact {
@@ -86,4 +106,9 @@
 
 .contact-body {
     width: 80%;
+}
+
+.footer {
+    padding: 1rem 1.5rem 1rem;
+    background-color: rgba(255, 255, 255, .5);
 }
