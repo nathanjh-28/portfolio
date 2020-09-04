@@ -17,8 +17,16 @@
 }
 
 .tabs a:hover {
-    color: rgb(129, 129, 255);
-    border-bottom-color: rgb(129, 129, 255);
+    color: #3273dc;
+    border-bottom-color: #3273dc;
+}
+
+a {
+    color: black;
+}
+
+a :hover {
+    color: #3273dc;
 }
 
 #hero-name {
