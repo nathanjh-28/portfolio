@@ -6,17 +6,21 @@
 
 }
 
+.pink {
+    background-color: pink;
+}
+
 .hidden {
     position: absolute;
     display: none;
 }
 
-.tabs a {
+.hero-foot a {
     color: white;
     font-size: 5rem;
 }
 
-.tabs a:hover {
+.hero-foot a:hover {
     color: #3273dc;
     border-bottom-color: #3273dc;
 }
@@ -42,6 +46,7 @@ a :hover {
 .marble {
     background-image: url(../images/marble.jpg);
     height: 300vh;
+    background-size: cover;
 }
 
 .navbar {
@@ -80,25 +85,27 @@ a :hover {
 } */
 
 .projects {
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
     height: 100vh;
+    /* width: 95%; */
     /* flex-direction: column; */
 }
 
-.projects-body {
-    width: 95%;
+/* .projects-body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-}
+
+} */
 
 .project-card {
     width: 35%;
+
 }
 
 .proj-description {
-    height: 18vh;
+    height: 20vh;
 }
 
 .img-border {
@@ -119,4 +126,72 @@ a :hover {
 .footer {
     padding: 1rem 1.5rem 1rem;
     background-color: rgba(255, 255, 255, .5);
+}
+
+@media (max-width:767px) {
+    #hero-name {
+        font-size: 2rem;
+    }
+    #hero-role {
+        font-size: 1.66rem;
+    }
+    .hero-foot a {
+        font-size: 1.66rem;
+    }
+    .nav-name {
+        position: absolute;
+        display: none;
+    }
+    .proj-description {
+        height: auto;
+    }
+    .projects {
+        height: auto;
+    }
+    .marble {
+        height: auto;
+    }
+    .project-card {
+        width: 100%;
+    }
+    .projects {
+        height: 500vh;
+    }
+    .about {
+        height: auto;
+    }
+    .contact {
+        height: auto;
+        /* position: absolute;
+        display: none; */
+        background-image: url(../images/marble.jpg);
+    }
+
+    .footer {
+        position: absolute;
+        display: none;
+    }
+}
+
+@media (max-width:1022px) {
+    .nav-name {
+        position: absolute;
+        display: none;
+    }
+    .proj-description {
+        height: auto;
+    }
+    .projects {
+        height: auto;
+    }
+
+    .project-card {
+        width: 100%;
+    }
+    .marble {
+        height: 500vh;
+    }
+
+
+
 }
