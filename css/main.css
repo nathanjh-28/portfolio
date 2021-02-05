@@ -179,4 +179,8 @@ a :hover {
     .marble {
         height: 300vh;
     }
+    .contact {
+        height: auto;
+        background-image: url(../images/marble.jpg);
+    }
 }
