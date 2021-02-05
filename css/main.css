@@ -52,8 +52,10 @@ a :hover {
 
 .marble {
     background-image: url(../images/marble.jpg);
-    height: 300vh;
+    height: 450vh;
     background-size: cover;
+    background-position: center;
+    background-repeat: repeat-y;
 }
 
 .navbar {
